@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.utama {
+  background-color: #F3F3F3;
+}
+
+.main_text {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  color: #272829;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-collapse a:hover {
+  color: rgba(255, 255, 255, 0.537) !important;
+}
+
+/* section about */
+#About {
+  padding-top: 2rem;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.satu {
+  display: inline-block;
+  width: 50%;
+}
+
+.satu img {
+  width: 400px;
+  height: 550px;
+  border-radius: 7%;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.dua {
+  display: inline-block;
+  width: 55%;
+  margin-top: 110px;
+  height: 40%;
+  background-color: #EBE3D5;
+  border-radius: 7px;
+}
+
+.dua p{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+/* akhir about */
+
+
+/* carousel */
+.carousel {
+  height: 80vh;
+  
+}
+
+.carousel-item img{
+  width: 100%;
+  height: 80vh;
+}
+/* akhir carousel */
+
+
+/* section album */
+.card {
+  margin-top: 100px;
+}
+/* akhir album */
+
+/* section song */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+#music-player {
+  width: 300px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+audio {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.song1 {
+  border-radius: 4px;
+  border-style: solid;
+}
+
+.song2 {
+  border-radius: 4px;
+  border-style: solid;
+  
+}
+
+.song3 {
+  border-radius: 4px;
+  border-style: solid;
+}
+
+.text_akhir {
+  text-align: center;
+  margin: 100px auto;
+}
+
+.akhirr {
+  padding-bottom: 20px;
+}
+/* akhir song */
